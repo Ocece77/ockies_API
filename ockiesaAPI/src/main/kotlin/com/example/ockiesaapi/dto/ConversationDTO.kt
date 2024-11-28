@@ -1,0 +1,1 @@
+//Les DTOs facilitent la communication entre le backend et les clients (API).
