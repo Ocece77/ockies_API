@@ -1,3 +1,4 @@
+import com.example.ockiesaapi.enum.ConversationType
 import jakarta.persistence.*
 
 @Entity
@@ -7,9 +8,7 @@ public class Conversation(
     val ConversationId: Long? = null,
     val nom : String? = null,
     @Enumerated(EnumType.STRING)
-    val type: ConversationType
+    val type: ConversationType? = null,
 
 )
 
-enum class ConversationType {
-}
