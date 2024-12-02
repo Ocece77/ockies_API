@@ -1,1 +1,0 @@
-//Les contrôleurs exposent les endpoints REST.
